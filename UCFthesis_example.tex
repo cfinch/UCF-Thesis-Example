@@ -1,0 +1,68 @@
+\documentclass{UCFthesis}
+
+\begin{document}
+\pagenumbering{roman}
+
+\title{A Sample UCF Thesis}
+\author{Craig Finch}
+\date{August 2011}
+\maketitle
+\thispagestyle{empty}
+
+\begin{UCFcopyright}
+2011 Craig Finch
+\end{UCFcopyright}
+
+\newpage
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\end{abstract}
+
+\begin{acknowledgements}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+\end{acknowledgements}
+
+\clearpage
+\tableofcontents
+
+\newpage
+\phantomsection \label{listoffigx}
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\listoffigures
+
+\newpage
+\phantomsection \label{listoftabx}
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
+
+\chapter{INTRODUCTION}
+
+\section{Randomness}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\subsection{Subsection}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Figure \ref{plot} shows an example plot.
+
+\begin{figure}[ht]
+\includegraphics[width=1\linewidth]{plot.pdf}
+\caption{This is a sample of a plot}
+\label{plot}
+\end{figure}
+
+\subsubsection{Subsubsection}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  The nonsense is shown in Table \ref{table}.
+
+\begin{table}[ht]
+\caption{This is a table}
+\label{table}
+\begin{tabular}{ l c r }
+  1 & 2 & 3 \\ \hline
+  4 & 5 & 6 \\
+  7 & 8 & 9 \\
+\end{tabular}
+\end{table}
+	
+\end{document}
