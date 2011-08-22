@@ -1,4 +1,8 @@
-\documentclass{UCFthesis}
+\documentclass[letterpaper, english]{UCFthesis}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{babel}
 
 \begin{document}
 \pagenumbering{roman}
@@ -23,15 +27,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 \end{acknowledgements}
 
 \clearpage
+\phantomsection \label{tableofcontents}
+\pdfbookmark[1]{TABLE OF CONTENTS}{tableofcontents}
 \tableofcontents
 
 \newpage
-\phantomsection \label{listoffigx}
+\phantomsection \label{listoffig}
 \addcontentsline{toc}{chapter}{LIST OF FIGURES}
 \listoffigures
 
 \newpage
-\phantomsection \label{listoftabx}
+\phantomsection \label{listoftab}
 \addcontentsline{toc}{chapter}{LIST OF TABLES}
 \listoftables
 
@@ -66,3 +72,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 \end{table}
 	
 \end{document}
+
