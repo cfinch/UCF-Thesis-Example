@@ -1,0 +1,5 @@
+This repo demonstrates how to use the UCFthesis class.  Get the class at
+https://github.com/cfinch/UCFthesis
+and follow the installation instructions.  This example should build, without
+error, with the following command:
+pdflatex UCFthesis_example.tex
